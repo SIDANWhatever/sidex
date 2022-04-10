@@ -1,6 +1,6 @@
 index-state: 2021-08-14T00:00:00Z
 
-packages: ./.
+packages: sidex.cabal
 
 -- You never, ever, want this.
 write-ghc-environment-files: never
@@ -19,6 +19,7 @@ source-repository-package
     plutus-contract
     plutus-chain-index
     plutus-ledger
+    plutus-ledger-constraints
     plutus-pab
     plutus-use-cases
     quickcheck-dynamic
